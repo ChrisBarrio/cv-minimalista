@@ -1,0 +1,56 @@
+---
+import {education} from '../../cv.json'
+interface work {
+    institution:string;
+    url:string;
+    startDate:string;
+    endDate:string;
+    summary:string;
+    studyType:string;
+    area:string;
+}
+---
+
+<section>
+    <h1>Educación</h1>
+    <main>
+        {
+            education.map(({url,startDate,endDate,summary,area,institution})=>(
+
+                <div class="card">
+                    <div class="header"><p class="name-work">{institution}</p><p>{startDate} - {endDate}</p></div>
+                    <p class="position">{area}</p>
+                    <p>{summary}</p>
+                </div>
+            ))
+        }
+    </main>
+</section>
+
+
+<style>
+    main{
+        display: grid;
+        gap: 1.2rem;
+    }
+    .card{
+        display: grid;
+        gap:.4rem;
+    }
+.card .header{
+    display: flex;
+    justify-content: space-between;
+}
+.name-work {
+    color:  #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.position{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+</style>

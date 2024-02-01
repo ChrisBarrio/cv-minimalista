@@ -1,0 +1,149 @@
+{
+    "basics": {
+        "name": "Christian Barrionuevo",
+        "label": "Atención al cliente telefónico y digital - [Homeoffice]",
+        "image": "https://avatars.githubusercontent.com/u/90290161?s=400&u=885c3164cd78d6a62190761008419104d9660a37&v=4",
+        "email": "chbwdeveloper@gmail.com",
+        "phone": "-",
+        "url": "https://johndoe.com",
+        "summary": "Con más de 10 años de experiencia en atención al cliente en Osde, soy un profesional resolutivo y apasionado por utilizar tecnologías como el chat y el correo electrónico para brindar soluciones eficientes. Mi enfoque centrado en el cliente y habilidades comunicativas sólidas me han permitido establecer relaciones significativas y duraderas.",
+        "location": {
+            "address": "",
+            "postalCode": "1238",
+            "city": "Boedo",
+            "countryCode": "Argentina",
+            "region": "Buenos Aires"
+        },
+        "profiles": [
+            {
+                "network": "Github",
+                "username": "ChrisBarrio",
+                "url": "https://github.com/ChrisBarrio"
+            },
+            {
+                "network": "Linkedin",
+                "username": "ChrisBarrio",
+                "url": "https://www.linkedin.com/in/christianbarrionuevo/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Osde",
+            "position": "Atención telefónica y digital",
+            "url": "https://osde.com.ar",
+            "startDate": "2014-07-01",
+            "endDate": "actualidad",
+            "summary": "Asesor y gestor de trámites en productos de la salud tanto del lado del cliente como del proveedor. Me concentro en las métricas de productividad para poder medir la eficiencia de mis trabajos y poder buscar mejoras en los circuitos de los mismos. El incremento de la productividad es uno de mis principales objetivos junto con la resolución de problemas.",
+            "highlights": [
+                "CRM, Excel, GoogleDrive"
+            ]
+        },
+        {
+            "name": "Osde",
+            "position": "Urgencias",
+            "url": "https://osde.com.ar",
+            "startDate": "2012-01-01",
+            "endDate": "2013-10-31",
+            "summary": "Mi tarea consistía en atender llamadas para coordinar el envío de médicos o ambulancias a los asegurados. Además, tenía a mi cargo la ubicación de personas derivadas para internaciones. Mi labor se centraba en garantizar una respuesta eficiente y oportuna a las emergencias médicas, asegurando la rápida asistencia de profesionales de la salud y facilitando la logística necesaria para las internaciones.",
+            "highlights": [
+                "CRM, AS400, GoogleDrive"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "UTN",
+            "url": "https://utn.edu.ar/es/estudiar-utn?tipo_busqueda=carreras&id_tipos_carreras=3&id_seleccion=36",
+            "area": "Tecnicatura Universitaria en Administración",
+            "studyType": "Tecnicatura",
+            "startDate": "2024-03-01",
+            "endDate": "actualidad",
+            "score": "4.0",
+            "summary": "Supervisión y diseño de procesos administrativos, financieros y contables. Implementación de evaluaciones para medir la eficiencia de servicios. Desarrollo de metodologías de control y auditorías internas. Producción de documentación conforme a normativas vigentes. Planificación y ejecución de programas administrativos. Procesamiento de datos y coordinación de equipos de trabajo en gestión administrativa.",
+            "courses": [
+                "DB1101 - Basic SQL"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "administrativo",
+            "level": "Master",
+            "keywords": [
+                "Microsoft Excel - Google Sheets - Microsoft Word, PowerPoint, Outlook, Trello o Jira para la gestión de proyectos, seguimiento de errores e incidencias"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+        }
+    ]
+}

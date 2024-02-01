@@ -1,0 +1,24 @@
+---
+import {skills} from '../../cv.json'
+
+interface SkillKeywords {
+    keywords: [];
+    key:number
+}
+
+//const {keywords} = skills
+---
+
+<section>
+    <h1>Skills</h1>
+    <main>
+        {
+            skills.map(({keywords}) => (
+                <p >{keywords}</p>
+            ))
+        }
+    </main>
+</section>
+
+<style>
+</style>

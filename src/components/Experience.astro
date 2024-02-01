@@ -1,0 +1,56 @@
+---
+import {work} from '../../cv.json'
+interface work {
+    name:string;
+    position:string;
+    url:string;
+    startDate:string;
+    endDate:string;
+    summary:string;
+    highlights:string;
+}
+//const {name, position, url, startDate,endDate,summary,highlights } = work
+---
+
+<section>
+    <h1>Experiencia</h1>
+    <main>
+        {
+            work.map(({name,position,url,startDate,endDate,summary,highlights})=>(
+
+                <div class="card">
+                    <div class="header"><p class="name-work">{name}</p><p>{startDate} - {endDate}</p></div>
+                    <p class="position">{position}</p>
+                    <p>{summary}</p>
+                </div>
+            ))
+        }
+    </main>
+</section>
+
+<style>
+    main{
+        display: grid;
+        gap: 1.2rem;
+    }
+    .card{
+        display: grid;
+        gap:.4rem;
+    }
+.card .header{
+    display: flex;
+    justify-content: space-between;
+}
+.name-work {
+    color:  #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: large;
+}
+
+.position{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+</style>

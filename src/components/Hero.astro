@@ -1,0 +1,63 @@
+---
+import {basics} from '../../cv.json'
+import Linkedin from '@/icons/Linkedin.astro';
+import Github from '@/icons/Github.astro';
+
+const {name, label,profiles, image} = basics
+const {region, countryCode, city} = basics.location
+
+const SOCIAL_ICONS: Record<string, any> = {
+    Linkedin,
+    Github
+}
+
+---
+
+<section>
+    <div>
+        <h1>{name}</h1>
+        <p>{label}</p>
+        <p>{city} - {region} - {countryCode}</p>
+        <footer>
+            {profiles.map(({network,username,url})=>{
+                    const Icon=SOCIAL_ICONS[network]
+
+                    return(
+                        <a href={url} target="_blank" title={`visitar perfil ${username} en ${network}`} rel="noopener noreferrer">
+                            <Icon/>
+                        </a>
+                    )
+                })
+            }
+        </footer>
+    </div>
+    <figure>
+        <img src={image} alt={`imagen de ${name}`}>
+    </figure>
+</section>
+
+
+<style>
+    section{
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        color: #000;
+    }
+    a{
+        color: #a19b9b;
+    }
+    footer{
+        color:#000
+    }
+    figure{
+        display: flex;
+        justify-content: end;
+    }
+    figure img{
+        border-radius: 10%;
+        width: 35%;
+        object-fit: contain;
+    }
+</style>
